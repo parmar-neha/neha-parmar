@@ -1,0 +1,129 @@
+baseURL = "https://parmar-neha.github.io/"
+languageCode = "en-us"
+title = "Neha Parmar"
+theme = "hugo-theme-hello-friend-ng"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpored = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Neha Parmar"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = ""
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Nice theme for homepages and blogs"
+  keywords = ""
+  images = [""]
+
+  homeSubtitle = "UX Designer"
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = ""
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = []
+  customJS  = []
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  justifyContent = true  # Set "text-align: justify" to .content.
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "Contact"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+  themeColor = "#252627"
+
+  [params.logo]
+    logoText     = "Portfolio"
+    logoHomeLink = "https://drive.google.com/open?id=1FCJrqpE7zxp3CFHMcT9EFv5fANrnsXQv"
+
+  # Social icons
+  [[params.social]]
+    name = "certificate 1"
+    url  = "https://www.interaction-design.org/neha-parmar/certificate/course/PL3GXV46N"
+
+  [[params.social]]
+    name = "certificate 2"
+    url  = "https://www.interaction-design.org/neha-parmar/certificate/course/PWlH1MWFZ"   
+
+  [[params.social]]
+    name = "certificate 3"
+    url  = "https://www.interaction-design.org/neha-parmar/certificate/course/PLDLC326X"
+
+  [[params.social]]
+    name = "certificate 4"
+    url  = "https://www.interaction-design.org/neha-parmar/certificate/course/PT4t6Ldb0"
+
+  [[params.social]]
+    name = "email"
+    url  = "neha.parmar1618@gmail.com/"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/neha-parmar7/"
+
+[languages]
+  [languages.en]
+    subtitle  = "UX Designer"
+    weight    = 1
+    copyright = '<a>neha.parmar1618@gmail.com</a>'
+
+  [languages.fr]
+    subtitle  = "UX Designer"
+    weight    = 2
+    copyright = '<a>neha.parmar1618@gmail.com</a>'
+
+[menu]
+  [[menu.main]]
+
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+
+  [[menu.main]]
+    identifier = "Resume"
+    name       = "Resume"
+    url        = "https://drive.google.com/file/d/1jbApXtRVfzJ4PV1YCTA_wpSELf2_N9UN/view?usp=sharing"
+    
